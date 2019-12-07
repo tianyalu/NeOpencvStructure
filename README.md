@@ -52,6 +52,7 @@ int main()
 ### 3.1 找不到 opencv_world412.dll
 运行报错如下图所示：  
 ![image](https://github.com/tianyalu/NeOpencvStructure/blob/master/show/error.png)  
+
 解决方案：  
 * 系统环境变量path添加路径: D:\CommonDev\opencv\opencv4.1.2\opencv\build\x64\vc15\bin, **未解决问题**。  
 * 将上述路径下的3个dll文件复制到 C:\Windows\System32 目录下，**解决问题**。  
