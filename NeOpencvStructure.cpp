@@ -10,6 +10,8 @@ int main()
 	//显示图片demo
 	//Mat p = imread("F:\\图片\\meng\\meng1.jpeg");
 	//imshow("img", p);
+	//cvtColor(p, p, COLOR_BGR2GRAY);
+	//imshow("img2", p);
 	//waitKey();
 
 	//从摄像头读入视频，参数0就代表读入的是摄像头
