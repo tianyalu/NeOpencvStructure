@@ -5,7 +5,7 @@
 ## 一、环境搭建
 参考：[Visual Studio OpenCV 环境配置](https://www.jianshu.com/p/2c64a4a89a15)  
 ### 1.1 Visual Studio环境准备
-下载 [Visual Studio](https://visualstudio.microsoft.com/zh-hans/vs/community/) , 这里我们下载`Visual Studio Community 2019` 社区免费版即可。运行安装程序，勾选 ** 使用`C++`的`Linux`开发**：  
+下载 [Visual Studio](https://visualstudio.microsoft.com/zh-hans/vs/community/) , 这里我们下载`Visual Studio Community 2019` 社区免费版即可。运行安装程序，勾选 **使用`C++`的`Linux`开发**：  
 ![image](https://github.com/tianyalu/NeOpencvStructure/raw/master/show/visualStudio1.webp)  
 
 单个组件中 **`SDK`、库和框架** 下勾选 **`Windows 10 SDK`** 和 **`Windows` 通用`C`运行时**：  
