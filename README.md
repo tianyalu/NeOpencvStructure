@@ -104,9 +104,9 @@ int main()
 ![image](https://github.com/tianyalu/NeOpencvStructure/raw/master/show/error.png)  
 
 ~~解决方案1：~~  
-~~* 系统环境变量path添加路径: D:\CommonDev\opencv\opencv4.1.2\opencv\build\x64\vc15\bin, **未解决问题**。  ~~
+~~* 系统环境变量path添加路径: D:\CommonDev\opencv\opencv4.1.2\opencv\build\x64\vc15\bin, **未解决问题**。~~  
 ~~* 将上述路径下的3个dll文件复制到 C:\Windows\System32 目录下，**解决问题**。~~  
-~~**注意：** 将dll文件复制到 C:\Windows\SysWOW64 目录下**不解决问题**。~~
+~~**注意：** 将dll文件复制到 C:\Windows\SysWOW64 目录下**不解决问题**。~~  
 
 解决方案2（推荐）：  
 直接将`D:\CommonDev\opencv\opencv4.1.2\opencv\build\x64\vc15\bin\opencv_world412.dll` 复制到项目生成目录下 `E:\AndroidWangYiCloud\CPlusWorkspace\NeOpencvStructure\out\build\x64-Debug\NeOpencvStructure` 即可。  
